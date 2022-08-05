@@ -1,0 +1,22 @@
+{
+  "name": "curso-api-rest-javascript-practivo",
+  "version": "1.0.0",
+  "description": "Curso práctico API REST Javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaritinaBrito/curso-api-rest-javascript-practivo.git"
+  },
+  "keywords": [
+    "@KarenBrito"
+  ],
+  "author": "Karen Brito <savaraguz@.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaritinaBrito/curso-api-rest-javascript-practivo/issues"
+  },
+  "homepage": "https://github.com/KaritinaBrito/curso-api-rest-javascript-practivo#readme"
+}
