@@ -5,10 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlaziMovies</title>
+
     <link rel="stylesheet" href="./styles/app.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500&family=Quicksand:wght@300;500;700&family=Shadows+Into+Light&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Edu+VIC+WA+NT+Beginner:wght@400;500&family=Quicksand:wght@300;500;700&family=Shadows+Into+Light&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Edu+QLD+Beginner&family=Edu+VIC+WA+NT+Beginner:wght@400;500&family=Quicksand:wght@300;500;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>PlatziMovies</h1>
+   <header id="header" class="header-container">
+    <span class="header-arrow" >&lt;</span>
+    <h1 class="header-title inactive">Platzi Movies</h1>
+    <h1 class="header-title headertitle--categoryView inactive">Acción</h1>
+
+    <form id="searchForm" class="header-searchForm">
+        <input type="text" placeholder="Vengadores" />
+        <button>🔍</button>
+    </form>
+   </header>
+
+   <section id="trendingPreview" class="trendingPreview-container">
+    <div class="trendingPreview-header">
+        <h2 class="trendingPreview-title">Tendencias</h2>
+        <button class="trendingPreview-btn">Ver más</button>
+    </div>
+    
+    <article class="trendingPreview-movieList">
+        <!-- <div class="movie-container">
+
+        </div> -->
+    </article>
+   </section>
+
+   <section id="categoriesPreview" class="categoriesPreview-container">
+    <h2 class="categoriesPreview-title">Categorías</h2>
+
+    <article class="categoriesPreview-list">
+        <div class="category-container">
+            <h3 id="id28" class="category-title">Romance</h3>
+        </div>
+
+        <div class="category-container">
+            <h3 id="id16" class="category-title">Drama</h3>
+        </div>
+
+        <div class="category-container">
+            <h3 id="id46" class="category-title">Ciencia Ficción</h3>
+        </div>
+
+        
+    </article>
+   </section>
+
     
     <script src="./src/secrets.js"></script>
     <script src="./src/main.js"></script>
